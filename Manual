@@ -1,0 +1,9 @@
+Usage:
+
+Step1: Prepare snps record for each contig, each contig should contains two files: .snp1 and .snp2
+Step2: Use LDscaff to build a graph, with nodes represented by contig ends, 
+    with edges represented by possible links between two contig ends, 
+    with weights represented by LD bwtween two contig ends.
+    Here, we resolve the matching problems by solving the maximum matching problem.
+    We now obtain the best matching the contains several paths.
+Step3: Use a cut-off to break the weak links and obtain the final results.
