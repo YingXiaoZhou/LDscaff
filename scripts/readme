@@ -1,0 +1,6 @@
+#pathfile: the resulting matching in a graph were linked into linear path using different cutoffs.
+#edges that below cut-off threshold were considered weak connect and would be cut
+
+# Usage:
+python link_contigs_by_path.py -paths pathfile -contigs contigs -i input.fasta -o output.fasta
+
